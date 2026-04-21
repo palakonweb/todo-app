@@ -1,0 +1,13 @@
+{
+  "name": "aesthetic-todo-app",
+  "version": "1.0.0",
+  "description": "A Simple Todo Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -p ${PORT:-8080} .",
+    "build": "echo \"No build step required for Vanilla HTML/JS\""
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
